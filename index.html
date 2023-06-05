@@ -70,22 +70,6 @@
         padding: 5% 10% 0 10%;
       }
 
-      li.nav-item {
-        font-size: 1.1rem;
-        text-align: center;
-        font-weight: bolder;
-        width: 70px;
-        color: orange;
-      }
-
-      .title-img {
-        width: 350px;
-        position: absolute;
-        z-index: 0;
-        top: 30%;
-        left: 15%;
-      }
-
       /* About me page  */
 
       #features {
@@ -113,17 +97,6 @@
         padding: 20px;
         font-size: 15px;
         color: #919191;
-      }
-
-      /* For modile-friendly */
-      @media (max-width: 1028px) {
-        .logo {
-          display: none;
-        }
-
-        .title-img {
-          position: static;
-        }
       }
     </style>
   </head>
@@ -165,7 +138,7 @@
             <li>
               <p>
                 Java/Springboot/Mybatis -> Kotlin/Springboot/QueryDSL로
-                마이그레이션 진행. 코드량 3/1로 감소 및 API 응답 속도 3배 향상
+                마이그레이션 진행 API 응답 속도 3배 향상
               </p>
             </li>
             <li>
@@ -178,8 +151,8 @@
             </li>
             <li>
               <p>
-                JWT 토큰 기반 로그인 기능 DynamoDB로 마이그레이션 진행. Token
-                무효화 및 RefreshToken 자동 삭제 구현
+                로그인 기능 DynamoDB로 마이그레이션 진행하여 고객 서버 자사
+                솔루션 연동 안정성 향상 기여
               </p>
             </li>
             <li>
@@ -271,18 +244,15 @@
               <p>영상 트랜스코딩이 가능한 온라인 강의 수강 사이트</p>
             </li>
             <li>
-              <p>JWT, NestJS AuthGuard를 이용한 인증, 인가</p>
+              <p>
+                S3, AWS SQS, AWS ECS Fargate를 활용한 영상 트랜스코딩 파이프라인
+                구축
+              </p>
             </li>
             <li>
               <p>
                 수강 이력 추적을 위한 DB 설계 및 API 개발(수강 진행률, 총 수강
                 시간, 수강 완료 여부 등)
-              </p>
-            </li>
-            <li>
-              <p>
-                S3, AWS SQS, AWS ECS Fargate를 활용한 영상 트랜스코딩 파이프라인
-                구축
               </p>
             </li>
           </ul>
@@ -293,16 +263,18 @@
         <div class="col-lg-3">
           <h2>기술서적 번역 베타리더</h2>
           <p style="color: #919191">2022.07 ~ 2022.10</p>
-          링크 :
-          <a href="https://product.kyobobook.co.kr/detail/S000201866534">
-            https://product.kyobobook.co.kr/detail/S000201866534
-          </a>
         </div>
         <div class="col-lg-9">
           <ul>
             <li>
+              <p>기술서적 번역서의 베타리더로 활동하며 번역 품질 향상 기여</p>
+            </li>
+            <li>
               <p>
-                기술서적 번역 베타리더로 활동하며 번역서의 번역 품질 향상 기여
+                링크 :
+                <a href="https://product.kyobobook.co.kr/detail/S000201866534">
+                  https://product.kyobobook.co.kr/detail/S000201866534
+                </a>
               </p>
             </li>
           </ul>
@@ -342,12 +314,23 @@
           <h1>SKILLS</h1>
         </div>
         <div class="col-lg-12">
-          <h2>Language : Kotlin, Java, Typescript</h2>
-          <h2>Framework : Springboot, NestJS, JPA, QueryDSL</h2>
-          <h2>DB: MySQL, DynamoDB, Redis</h2>
-          <h2>Infra : AWS, Docker</h2>
+          <h4>실무 경험있는 SKILLS</h4>
+          <ul>
+            <li>
+              <h4>Language : Kotlin, Java, Typescript</h4>
+            </li>
+            <li>
+              <h4>Framework : Springboot, NestJS, JPA, QueryDSL</h4>
+            </li>
+            <li>
+              <h4>DB: MySQL, DynamoDB, Redis</h4>
+            </li>
+            <li>
+              <h4>Infra : AWS, Docker</h4>
+            </li>
+          </ul>
           <br />
-          <h2>외국어 : 영어(비즈니스), 일본어(N2)</h2>
+          <h4>외국어 : 영어(비즈니스), 일본어(N2)</h4>
         </div>
       </div>
 
